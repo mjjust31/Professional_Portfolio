@@ -2,27 +2,68 @@ body {
   background-color: rgb(229, 219, 219);
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: black;
-  padding: 10px; 
-}
-
 header img {
   width: 100px;
   border-radius: 100px;
-  
 }
 
 header a {
   color: white;
   text-decoration: none;
-  padding: 15px; 
+  padding: 15px;
+}
+
+header a:hover {
+}
+
+header a:active {
+}
+
+header a:visited {
 }
 
 h1 {
   color: white;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+}
+
+.chicagoPic {
+  background-image: url("../images/chicagoSkyline.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  filter: grayscale(80%);
+  height: 550px;
+  width: 100%;
+  z-index: -1;
+  top: 20px; 
+}
+
+.box-background {
+  position: relative;
+}
+
+#about-me {
+  position: relative;
+  top: 150px;
+  left: 500px;
+  background-color: rgb(229, 219, 219);
+  width: 100px;
+  padding: 20px;
+}
+
+#bio-positioning {
+  position: relative;
+  top: 300px;
+  left: 400px;
+  width: 300px;
+  background-color: rgb(229, 219, 219);
   padding: 20px;
 }
