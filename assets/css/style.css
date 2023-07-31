@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(229, 219, 219);
+  background-image: linear-gradient(rgb(229, 219, 219), rgb(71, 60, 69));
 }
 
 header img {
@@ -38,15 +38,6 @@ h1 {
   letter-spacing: 4px;
 }
 
-.j-style {
-  font-family: Snell Roundhand, cursive;
-  font-size: 50px;
-  color: rgb(158, 142, 142);
-}
-
-/* main {
-  display: flex; 
-} */
 .header {
   display: flex;
   align-items: center;
@@ -55,6 +46,11 @@ h1 {
   padding: 30px;
 }
 
+.j-style {
+  font-family: Snell Roundhand, cursive;
+  font-size: 50px;
+  color: rgb(158, 142, 142);
+}
 .chicagoPic {
   background-image: url("../images/Card22.jpg");
   background-size: cover;
@@ -64,12 +60,100 @@ h1 {
   height: 500px;
   width: 100%;
   top: 5px;
-  position: relative;
-  display: block;
+  display: flex;
 }
 
-.background-change {
-  background-image: linear-gradient(rgb(229, 219, 219), rgb(71, 60, 69),rgb(229, 219, 219));
+.container {
+  display: flex;
+  position: relative;
+}
+
+#about-me {
+  position: relative;
+  flex-wrap: wrap;
+  top: -80px;
+  left: 200px;
+  background-color: rgb(229, 219, 219);
+  padding: 25px;
+  border: 5px solid lightpink;
+  border-radius: 30px;
+  font-size: 40px;
+  height: 50px;
+}
+
+#bio-positioning {
+  position: relative;
+  flex-wrap: wrap;
+  top: -100px;
+  left: 100px;
+  width: 50%;
+  background-color: rgb(229, 219, 219);
+  padding: 20px;
+  border: 3px solid lightpink;
+  border-radius: 30px;
+  margin: auto;
+  font-size: 25px;
+  z-index: 1;
+}
+
+.main-box {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.main-box a{
+  position: relative; 
+}
+
+.main-box h4 {
+  position: absolute;
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: lightpink;
+  border: 2px solid black;
+  top: 350px;
+  left: 100px;
+  font-size: 30px;
+}
+
+.main-box p {
+  position: absolute;
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: lightpink;
+  border: 2px solid black;
+  top: 410px;
+  left: 150px;
+}
+
+.subtitle-style{
+  margin: 60px;
+  font-size: 50px;
+  border: 3px solid lightpink;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: rgb(229, 219, 219);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+#first-box {
+  margin: 20px;
+  display: flex;
+  filter: grayscale(80%);
+  background-image: url("../images/Card22.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 500px;
+  width: 1000px;
+  position: relative; 
 }
 
 /* .box-background {
@@ -82,111 +166,64 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }  */
-#about-me {
-  position: relative;
-  top: 325px;
-  left: 350px;
-  background-color: rgb(229, 219, 219);
-  padding: 20px;
-  width: 100px;
-  border: 3px solid lightpink;
-  border-radius: 30px;
-  font-size: 40px;
-}
-
-#bio-positioning {
-  position: absolute;
-  flex-wrap: wrap;
-  top: 425px;
-  left: 500px;
-  width: 50%;
-  background-color: rgb(229, 219, 219);
-  padding: 20px;
-  border: 3px solid lightpink;
-  border-radius: 30px;
-  margin: auto;
-  font-size: 25px;
-  z-index: -1;
-}
-
-#first-box {
-  max-width: 800px;
-  margin: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 100px;
-  border-right: 10px solid lightpink;
-}
 
 #first-box:hover {
   box-shadow: 5px 5px 5px 5px rgb(229, 219, 219);
-}
-
-#myWork {
-  display: block;
-  margin: 60px;
-  font-size: 50px;
-  display: inline-block;
-  border: 3px solid lightpink;
-  padding: 50px;
-  border-radius: 30px;
-  background-color: rgb(229, 219, 219);
-}
-
-.myWork-positioning {
-  justify-content: end;
-  display: flex;
-  margin: 90px;
-  position: relative;
-  top: 300px;
-  left: -300px;
+  border-radius: 50px;
 }
 
 .box-link {
   max-width: 400px;
   filter: grayscale(80%);
   margin: 0px 30px;
+  z-index: -1;
 }
 
-.main-box {
-  position: relative;
-  display: flex;
-  filter: grayscale(80%);
-  justify-content: left;
-  margin: 50px;
-  top: -200px;
-}
 
-.main-box-surf {
-  position: absolute;
-  padding: 15px 10px;
-  border-radius: 30px;
-  background-color: lightpink;
-  border: 2px solid black;
-  top: 350px;
-  left: 150px;
-  font-size: 30px;
-}
 
-.main-subtitle {
-  position: absolute;
-  padding: 15px 10px;
-  border-radius: 30px;
-  background-color: lightpink;
-  border: 2px solid black;
-  top: 410px;
-  left: 150px;
-}
 
 .box1-led {
-  position: absolute;
-  color: white; 
-  font-size: 40px; 
+  position: relative;
+  border-radius: 30px;
+  background-color: lightpink;
+  border: 2px solid black;
+  top: 50px;
+  left: 10px;
+  font-size: 20px;
+  z-index: 1;
 }
 
 .box1-node {
-  position: absolute;
+  position: relative;
+  z-index: 1;
+  border-radius: 30px;
+  background-color: lightpink;
+  border: 2px solid black;
+  top: 170px;
+  left: 450px;
+}
+
+.box2-calc {
+  position: relative;
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: lightpink;
+  border: 2px solid black;
+  top: 115px;
+  left: 750px;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.box2-js {
+  position: relative;
+  z-index: 1;
+  padding: 10px 5px;
+  border-radius: 30px;
+  background-color: lightpink;
+  border: 2px solid black;
+  top: 170px;
+  left: 450px;
 }
 
 .row-1 {
@@ -208,6 +245,7 @@ footer {
   position: relative;
   background-color: black;
   padding: 40px;
+  flex-wrap: wrap;
 }
 
 footer a {
@@ -218,7 +256,27 @@ footer a {
   position: relative;
   top: 100px;
   left: 530px;
-  border-left: 4px solid white;
+  border: 2px solid white;
+  margin: 50px;
+  background-color: black;
+  transition: background-color 3s;
+  font-family: Apple Chancery, cursive;
+  flex-wrap: wrap;
+}
+
+footer a:hover {
+  box-shadow: 2px 2px 2px 2px #888888;
+  border-radius: 30px;
+  background-color: #837d7d;
+}
+
+footer a:active {
+  font-style: italic;
+}
+
+footer a:visited {
+  color: rgb(238, 223, 137);
+  border-radius: 5px;
 }
 
 #contact-me {
@@ -230,4 +288,12 @@ footer a {
   padding: 50px;
   border-radius: 30px;
   background-color: rgb(229, 219, 219);
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
 }
