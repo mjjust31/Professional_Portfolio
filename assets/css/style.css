@@ -1,6 +1,6 @@
 body {
   background-color: rgb(229, 219, 219);
-}
+} 
 
 header img {
   width: 100px;
@@ -8,24 +8,44 @@ header img {
 }
 
 header a {
-  color: white;
+  color: rgb(221, 229, 219);
   text-decoration: none;
   padding: 15px;
+  font-size: 30px; 
+  font-family: Apple Chancery, cursive;
 }
 
 header a:hover {
+  box-shadow: 5px 5px 5px 5px #888888;
+  border-radius:30px;
+  background-color: #1e1d1d;
 }
 
 header a:active {
+ font-style: italic; 
 }
 
 header a:visited {
+  color: rgb(238, 223, 137); 
+  border-radius: 5px;
+  
 }
 
 h1 {
-  color: white;
+  color: rgb(229, 219, 219);
   padding: 20px;
+  font-size: 45px; 
+  font-family: Apple Chancery, cursive;
+  letter-spacing: 4px; 
+
 }
+
+.j-style {
+  font-family: Snell Roundhand, cursive;
+  font-size: 50px; 
+  color: rgb(158, 142, 142);
+
+} 
 
 /* main {
   display: flex; 
@@ -36,56 +56,62 @@ h1 {
   justify-content: space-between;
   background-color: black;
   padding: 10px;
+  
 }
 
+
 .chicagoPic {
-  background-image: url("../images/chicagoSkyline.png");
+  background-image: url("../images/Card22.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position:180%;
   filter: grayscale(80%);
   height: 500px;
   width: 100%;
   z-index: -1;
   top: 20px;
   position: relative;
-  background-attachment: scroll;
   display: block;
-}
-
+} 
+/* 
 .box-background {
   position: relative;
 }
 .box-link {
   max-width: 225px;
+
 }
 
 .box-positioning {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}  */
 
 #about-me {
-  position: absolute;
-  top: 150px;
-  left: 500px;
+  position: relative;
+  top: 325px;
+  left: 350px;
   background-color: rgb(229, 219, 219);
-  /* width: 100%; */
   padding: 20px;
-}
+  width: 100px; 
+  border: 3px solid lightpink;
+  border-radius: 30px;
+  font-size: 40px;
+} 
 
 #bio-positioning {
   position: absolute;
   flex-wrap: wrap;
-  top: 415px;
-  left: 300px;
+  top: 400px;
+  left: 500px;
   width: 50%;
   background-color: rgb(229, 219, 219);
   padding: 20px;
   border: 3px solid lightpink;
   border-radius: 30px;
   margin: auto;
+  font-size: 25px; 
 }
 
 #first-box {
@@ -94,15 +120,24 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} 
 
-#myWork {
+ #myWork {
   display: block;
-  margin: 50px;
+  margin: 60px;
+  font-size: 50px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 50px; 
+} 
+
+.myWork-positioning {
+  justify-content: end;
+  display: flex; 
 }
 
-.box-positioning {
+/* .box-positioning {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}  */

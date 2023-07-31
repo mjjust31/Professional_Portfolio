@@ -9,15 +9,15 @@
   </head>
   <body>
     <header class="header">
-      <h1>Jessica Justmann</h1>
+      <h1><span class="j-style">J</span>essica <span class="j-style">J</span>ustmann</h1>
       <img
         src="./assets/images/Jessica.png"
         title="Jessica Justmann"
         alt="drawing of Jessica" />
       <nav>
-        <a href="#">About Me</a>
-        <a href="#">My Work</a>
-        <a href="#">Contact Me </a>
+        <a href="#about-me">About Me</a>
+        <a href="#myWork">My Work</a>
+        <a href="#contact-me">Contact Me </a>
         <!-- <a href="#">Resume</a> -->
       </nav>
     </header>
@@ -37,29 +37,55 @@
       </section>
 
       <section>
-        <h2 id="myWork">My Work</h2>
-
-        <a href="#"><img id="first-box" src="./assets/images/Card22.jpg" /></a>
-
-        <div>
-          <a href="#"
-            ><img class="box-link" src="./assets/images/Card22.jpg"
-          /></a>
-          <a href="#"
-            ><img class="box-link" src="./assets/images/Card22.jpg"
-          /></a>
+        <div class="myWork-positioning">
+          <h2 id="myWork">My Work</h2>
         </div>
+
+        <div>
+          <a href="#"
+            ><img id="first-box" src="./assets/images/Card22.jpg"
+          /></a>
+          <h4>Surf Report</h4>
+          <p>MERN Stack</p>
+        </div>
+
         <div>
           <a href="#"
             ><img class="box-link" src="./assets/images/Card22.jpg"
           /></a>
+          <h4>LED Wall</h4>
+          <p>Node/loT</p>
+
           <a href="#"
             ><img class="box-link" src="./assets/images/Card22.jpg"
           /></a>
+          <h4>Calculator</h4>
+          <p>React/Javascript</p>
+        </div>
+
+        <div>
+          <a href="#"
+            ><img class="box-link" src="./assets/images/Card22.jpg"
+          /></a>
+          <h4>Pastel Puzzels</h4>
+          <p>MERN Stack</p>
+
+          <a href="#"
+            ><img class="box-link" src="./assets/images/Card22.jpg"
+          /></a>
+          <h4>Run Buddy</h4>
+          <p>HTML/CSS</p>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <h2 id="contact-me">Contact Me</h2>
+      <nav>
+        <a href="tel:7736808837"> Call Me</a>
+        <a href="mailto:mj.justmann@gmail.com">Email Me</a>
+        <a href="https://github.com/mjjust31?tab=repositories">My Github</a>
+      </nav>
+    </footer>
   </body>
 </html>
