@@ -145,6 +145,8 @@ img {
   height: 50px;
 }
 
+
+
 #first-box {
   margin: 20px;
   display: flex;
@@ -187,6 +189,7 @@ img {
   margin: 0px 50px; 
   filter: grayscale(100%) 2s;
   transition: grayscale(100%);
+  display: flex;
 }
 
 .image-css {
@@ -202,6 +205,7 @@ img {
   margin: 0px 50px; 
   filter: grayscale(100%) 2s;
   transition: grayscale(100%);
+  display: flex;
 }
 
 .calculator:hover{
@@ -426,18 +430,19 @@ footer a:visited {
 #contact-me {
   font-size: 30px;
   margin: 40px;
-  position: relative;
   left: 130px;
   border: 3px solid lightpink;
   padding: 50px;
   border-radius: 30px;
   background-color: rgb(229, 219, 219);
-  flex-wrap: wrap;
+
 }
+
+/* 
 
 @media screen and (max-width: 992px) {
 }
 
 /* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-}
+/* @media screen and (max-width: 768px) {
+} */

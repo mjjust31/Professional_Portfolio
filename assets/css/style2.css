@@ -1,0 +1,274 @@
+body {
+  background-color: rgb(5, 25, 30);
+}
+
+header h1 {
+  padding: 1rem;
+}
+
+header img {
+  max-width: 150px;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+}
+
+header a {
+  color: rgb(221, 229, 219);
+  text-decoration: none;
+  padding: 0.75rem;
+  font-size: 100%;
+  line-height: 0.75rem;
+  font-family: Apple Chancery, cursive;
+}
+
+header a:hover {
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem #888888;
+  border-radius: 30%;
+  background-color:  rgb(5, 25, 30);
+}
+
+header a:active {
+  font-style: italic;
+}
+
+header a:visited {
+  color: rgb(238, 223, 137);
+  border-radius: 5%;
+}
+
+.header {
+  background-color: rgb(19, 19, 19);
+  color: rgb(229, 219, 219);
+  font-size: 175%;
+  font-family: Apple Chancery, cursive;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+.j-style {
+  font-family: Snell Roundhand, cursive;
+  font-size: 3rem;
+  color: rgb(158, 142, 142);
+} /*  */
+
+.head-banner {
+  background-image: url("../images/Card22.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  filter: grayscale(80%);
+  height: 10rem;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.section-title {
+  background-color: rgb(103, 122, 121);
+  padding: 1rem;
+  border: 0.15rem solid rgb(238, 223, 137);
+  max-width: 7rem;
+  font-size: 120%;
+  border-radius: 2rem;
+  margin: 1rem auto 1rem;
+  text-align: center;
+  color: white;
+  font-family: Apple Chancery, cursive, sans-serif;
+  line-height: 3rem;
+}
+
+#bio-positioning {
+  width: auto;
+  background-color: rgb(229, 219, 219);
+  padding: 1rem;
+  border: 0.2rem solid lightpink;
+  border-radius: 2rem;
+  font-size: 80%;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1;
+}
+
+.main-box {
+  background-color: rgb(46, 34, 40);
+  padding: 3rem 0;
+}
+
+.main-box img {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  filter: grayscale(80%);
+
+}
+.positioning-main {
+  position:relative; 
+  
+}
+.positioning-main h4 {
+  position: absolute;
+  left: 4.75rem;
+  top: 5.2rem; 
+  text-align: center;
+  color: white;
+  padding: .5rem 1rem;
+  width: 10%;
+  margin: 1;
+  background-color: rgb(46, 34, 40);
+  border: 0.15rem solid rgb(238, 223, 137);
+  font-size: 70%;
+}
+
+.positioning-main p {
+  position: absolute;
+  left: 5rem;
+  top: 8rem; 
+  text-align: center;
+  color: white;
+  padding: .5rem;
+  width: 10%;
+  margin: 1;
+  background-color: rgb(46, 34, 40);
+  border: 0.15rem solid rgb(238, 223, 137);
+  font-size: 40%;
+}
+
+
+#first-box {
+  background-image: url("../images/Card22.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(80%);
+  height: 12.5rem;
+  width: 25rem;
+  max-width: 75%;
+  z-index: 1;
+  margin: auto;
+  display: block;
+  border-radius: 10%;
+  position: relative;
+}
+
+#first-box:hover {
+  box-shadow: 1rem 1rem 1rem 1rem #888888;
+  background-color: #1e1d1d;
+}
+
+
+.box-link {
+  filter: grayscale(80%);
+  background-image: url("../images/Card22.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 12.5rem;
+  width: 25rem;
+  max-width: 75%;
+  z-index: 1;
+  margin: auto;
+  display: block;
+  border-radius: 10%;
+  position: relative;
+}
+
+.calculator {
+  filter: grayscale(80%);
+  z-index: -1;
+  background-image: url("../images/calculator.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 90%;
+  height: 12.5rem;
+  width: 25rem;
+  max-width: 75%;
+  z-index: 1;
+  margin: auto;
+  display: block;
+  border-radius: 10%;
+  position: relative;
+}
+
+footer {
+  background-color: black;
+  padding: 40px;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  transition: background-color 3s;
+  font-family: Apple Chancery, cursive;
+  text-align: center;
+  margin: auto;
+}
+
+footer a:hover {
+  box-shadow: 2px 2px 2px 2px #888888;
+  border-radius: 30px;
+  background-color: #837d7d;
+}
+
+footer a:active {
+  font-style: italic;
+}
+
+footer a:visited {
+  color: rgb(238, 223, 137);
+  border-radius: 5px;
+}
+
+#contact-me {
+  font-size: 30px;
+  margin: 40px;
+  left: 130px;
+  border: 3px solid lightpink;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: rgb(229, 219, 219);
+}
+
+/* tablet */
+@media screen and (min-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .positioning-main h4 {
+    left:5rem;
+    top: 20rem; 
+  }
+  
+  .positioning-main p {
+    left: 5rem;
+    top: 25rem; 
+  }
+
+.main-box img {
+  max-width: 50%;
+  display: block;
+  margin: auto;
+  filter: grayscale(80%);
+
+}
+  
+  }
+
