@@ -25,7 +25,7 @@ header a {
 header a:hover {
   box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem #888888;
   border-radius: 30%;
-  background-color:  rgb(5, 25, 30);
+  background-color: rgb(5, 25, 30);
 }
 
 header a:active {
@@ -97,25 +97,27 @@ header a:visited {
   padding: 3rem 0;
 }
 
-.main-box img {
-  max-width: 70%;
+.positioning-main {
+  position: relative;
+}
+
+.positioning-main img {
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin: auto;
   filter: grayscale(80%);
+}
 
-}
-.positioning-main {
-  position:relative; 
-  
-}
 .positioning-main h4 {
   position: absolute;
-  left: 4.75rem;
-  top: 5.2rem; 
+  left: 40%;
+  top: 50%;
+  display: block;
+  z-index: 1;
   text-align: center;
   color: white;
-  padding: .5rem 1rem;
-  width: 10%;
+  padding: 0.5rem 1rem;
   margin: 1;
   background-color: rgb(46, 34, 40);
   border: 0.15rem solid rgb(238, 223, 137);
@@ -124,18 +126,17 @@ header a:visited {
 
 .positioning-main p {
   position: absolute;
-  left: 5rem;
-  top: 8rem; 
+  left: 40%;
+  top: 70%;
+  z-index: 1;
   text-align: center;
   color: white;
-  padding: .5rem;
-  width: 10%;
+  padding: 0.5rem;
   margin: 1;
   background-color: rgb(46, 34, 40);
   border: 0.15rem solid rgb(238, 223, 137);
   font-size: 40%;
 }
-
 
 #first-box {
   background-image: url("../images/Card22.jpg");
@@ -156,7 +157,6 @@ header a:visited {
   box-shadow: 1rem 1rem 1rem 1rem #888888;
   background-color: #1e1d1d;
 }
-
 
 .box-link {
   filter: grayscale(80%);
@@ -191,23 +191,26 @@ header a:visited {
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(19, 19, 19);
   padding: 40px;
 }
 
 footer nav {
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 footer a {
   text-decoration: none;
   color: white;
-  border: 2px solid white;
+  border: 2px solid rgb(238, 223, 137);
   background-color: black;
   transition: background-color 3s;
   font-family: Apple Chancery, cursive;
   text-align: center;
-  margin: auto;
+  padding: 0.75rem;
+  border-radius: 30%;
 }
 
 footer a:hover {
@@ -245,30 +248,5 @@ footer a:visited {
 }
 
 /* desktop */
-@media screen and (min-width: 768px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .positioning-main h4 {
-    left:5rem;
-    top: 20rem; 
-  }
-  
-  .positioning-main p {
-    left: 5rem;
-    top: 25rem; 
-  }
-
-.main-box img {
-  max-width: 50%;
-  display: block;
-  margin: auto;
-  filter: grayscale(80%);
-
+@media screen and (min-width: 1024px) {
 }
-  
-  }
-
