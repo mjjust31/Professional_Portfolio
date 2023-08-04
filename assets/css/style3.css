@@ -11,7 +11,6 @@
   --ff-body: ;
 }
 
-
 body {
   background-color: lightgray;
 }
@@ -98,6 +97,46 @@ header a:visited {
   margin: auto;
 }
 
+.positioning-main {
+  position: relative;
+}
+
+.positioning-main h4 {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  z-index: 1;
+  color: white;
+}
+
+
+.positioning-main p {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  z-index: 1;
+  color: white;
+}
+
+
+.first-box {
+  filter: grayscale(80%);
+  background-image: url("../images/Card22.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  width: 100%;
+  margin: auto;
+  display: block;
+  border-radius: 10%;
+}
+
+.first-box:hover {
+  box-shadow: 5px 5px 5px 5px black;
+  border-radius: 50px;
+  filter: grayscale(0%);
+}
+
 #bio-positioning {
   width: 80%;
   background-color: rgb(229, 219, 219);
@@ -173,8 +212,6 @@ footer a:visited {
   text-align: center;
 }
 
-
-
 @media screen and (min-width: 600px) {
   .header {
     display: flex;
@@ -189,6 +226,10 @@ footer a:visited {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+  }
+
+  #work-width {
+    max-width: 33%;
   }
 
   @media screen and (min-width: 1024px) {
